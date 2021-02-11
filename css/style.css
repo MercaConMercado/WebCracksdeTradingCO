@@ -36,6 +36,9 @@ body{
   filter: blur(0.5px);
 }
 
+
+
+
 #cards1 {
 
   background: #000000;
@@ -49,6 +52,17 @@ body{
 
 }
 
+
+
+@keyframes shake2 {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);  
+  }
+}
+
 #cards2 {
 
   background: #000000;
@@ -60,6 +74,17 @@ body{
 
   font-family: 'Patua One', cursive;
 
+}
+
+
+
+@keyframes shake2 {
+  0% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-5deg);  
+  }
 }
 
 
@@ -98,7 +123,7 @@ body{
 
 .parallax {
   background-image: 
-  url("../img/tradingcracksdeltradingco.jpg");
+  url("../img/forexcracksdeltradingco.jpg");
   
   height: 400px;
   background-attachment: fixed;
@@ -120,6 +145,15 @@ body{
   font-family: 'Patua One', cursive;
 } 
 
+.cajasgv{
+  
+  text-align:center;
+  
+  
+  
+}
+
+
 
 .caja {
   text-align:center;
@@ -132,14 +166,30 @@ body{
   color: white;
 }
 .a {
-  background-color: #000000;
+  background-color: #ffffff11;
+}
+.a:hover {
+  
+  box-shadow: 0 0 10px 10px #919191; 
+  cursor: pointer;
 }
 .b {
-  background-color: #1c183b;
+  background-color: #ffffff11;
+}
+.b:hover {
+  
+  box-shadow: 0 0 10px 10px #919191; 
+  cursor: pointer;
 }
 
+
 .c {
-  background-color: #000000;
+  background-color: #ffffff11;
+}
+.c:hover {
+  
+  box-shadow: 0 0 10px 10px #919191; 
+  cursor: pointer;
 }
 
 .grid {
