@@ -1,12 +1,52 @@
-/* ---- reset ---- */
-body{
-
-  background-color: #1c183b !important;
-  margin: 0 ; 
-  background: -webkit-linear-gradient(to right, #111111, #000000, #1c183b);
-  
-  background: linear-gradient(to right, #111111, #000000, #1c183b);
+* {
+  padding: 0;
+  margin: 0;
 }
+
+body {
+  text-decoration: none !important;
+  background-color: #1c183b !important;
+  margin: 0;
+  background: -webkit-linear-gradient(to right, #111111, #000000, #1c183b);
+
+  background: linear-gradient(to right, #111111, #000000, #1c183b);
+
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+A:link {
+  text-decoration: none
+}
+
+A:hover {
+  color: #25e497;
+  text-decoration: none
+}
+
+A:visited {
+  color: #25e497;
+
+}
+
+* {
+  outline: none !important;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+textarea:focus,
+input:focus {
+  outline: none !important;
+}
+
+
 
 /* ---- particles.js container ---- */
 #particles-js {
@@ -52,14 +92,84 @@ body{
 
 }
 
+.h3 {
+  font-family: 'Patua One', cursive;
+  color: #25e497;
+  text-align: center;
+}
+
+.h4 {
+  font-family: 'Patua One', cursive;
+  color: #000000;
+  text-align: center;
+}
+
+p {
+  font-family: 'Patua One', cursive;
+  color: white;
+  text-align: center;
+}
+
+.navbar1 {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.navsub {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
+.iconx {
+  color: #25e497;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+
+}
+
+.iconx:hover {
+  color: greenyellow;
+  cursor: pointer;
+
+
+
+}
+
+
+.iconxb {
+  color: #25e497;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+
+
+
+}
+
+.iconxb:hover {
+  color: greenyellow;
+  cursor: pointer;
+  background-color: #1c183b;
+
+
+
+}
+
 
 
 @keyframes shake2 {
   0% {
     transform: rotate(5deg);
   }
+
   100% {
-    transform: rotate(-5deg);  
+    transform: rotate(-5deg);
   }
 }
 
@@ -82,14 +192,15 @@ body{
   0% {
     transform: rotate(5deg);
   }
+
   100% {
-    transform: rotate(-5deg);  
+    transform: rotate(-5deg);
   }
 }
 
 
 
-.footer{
+.footer {
   height: 300px;
   background-color: #1c183b;
   color: white;
@@ -98,7 +209,11 @@ body{
   justify-content: center;
   align-items: center;
   clip-path: polygon(0 35%, 19% 13%, 44% 25%, 63% 8%, 83% 18%, 100% 0, 100% 100%, 0 100%);
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+
 }
+
 
 
 
@@ -122,63 +237,70 @@ body{
 }
 
 .parallax {
-  background-image: 
-  url("../img/forexcracksdeltradingco.jpg");
-  
+  color: #25e497;
+  background-image:
+    url("../img/forexcracksdeltradingco.jpg");
+
   height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  
-  
+
+
 }
 
- .filtro {
+.filtro {
   height: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
   color: white;
   font-family: 'Patua One', cursive;
-} 
+}
 
-.cajasgv{
-  
-  text-align:center;
-  
-  
-  
+.cajasgv {
+
+  text-align: center;
+
+
+
 }
 
 
 
 .caja {
-  text-align:center;
+  text-align: center;
   padding: 60px;
   height: 200px;
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
   font-family: 'Patua One', cursive;
-  color: white;
+  color: #25e497;
 }
+
 .a {
   background-color: #ffffff11;
 }
+
 .a:hover {
-  
-  box-shadow: 0 0 10px 10px #919191; 
+
+  box-shadow: 0 0 10px 10px #919191;
+  color: greenyellow;
   cursor: pointer;
 }
+
 .b {
   background-color: #ffffff11;
 }
+
 .b:hover {
-  
-  box-shadow: 0 0 10px 10px #919191; 
+
+  box-shadow: 0 0 10px 10px #919191;
+  color: greenyellow;
   cursor: pointer;
 }
 
@@ -186,15 +308,17 @@ body{
 .c {
   background-color: #ffffff11;
 }
+
 .c:hover {
-  
-  box-shadow: 0 0 10px 10px #919191; 
+
+  box-shadow: 0 0 10px 10px #919191;
+  color: greenyellow;
   cursor: pointer;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 @media(max-width: 900px) {
@@ -207,4 +331,38 @@ body{
   .grid {
     grid-template-columns: 1fr;
   }
+}
+
+
+.blinking-cursor {
+  text-align: center;
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite;
+  font-family: 'Patua One', cursive;
+  color: #25e497;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.cardme {
+
+
+  background: #ffffff11;
+  cursor: pointer;
+  
+}
+
+
+
+
+.cardme:hover .imagen {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  box-shadow: 0 0 10px 10px #919191;
+}
+
+.cardme {
+  overflow: hidden;
 }
