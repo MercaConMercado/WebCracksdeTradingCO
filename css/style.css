@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
 }
 
 body {
@@ -209,8 +211,7 @@ p {
   justify-content: center;
   align-items: center;
   clip-path: polygon(0 35%, 19% 13%, 44% 25%, 63% 8%, 83% 18%, 100% 0, 100% 100%, 0 100%);
-  text-decoration: none !important;
-  text-decoration-line: none !important;
+ 
 
 }
 
@@ -280,26 +281,29 @@ p {
   font-size: 1.6rem;
   font-family: 'Patua One', cursive;
   color: #25e497;
+  
 }
 
 .a {
   background-color: #ffffff11;
+  transition: all 1s;
 }
 
 .a:hover {
 
-  box-shadow: 0 0 10px 10px #919191;
+  
   color: greenyellow;
   cursor: pointer;
 }
 
 .b {
   background-color: #ffffff11;
+  transition: all 1s;
 }
 
 .b:hover {
 
-  box-shadow: 0 0 10px 10px #919191;
+  
   color: greenyellow;
   cursor: pointer;
 }
@@ -307,11 +311,12 @@ p {
 
 .c {
   background-color: #ffffff11;
+  transition: all 1s;
 }
 
 .c:hover {
 
-  box-shadow: 0 0 10px 10px #919191;
+  
   color: greenyellow;
   cursor: pointer;
 }
@@ -348,21 +353,64 @@ p {
 
 .cardme {
 
-
+  color: #25e497;
   background: #ffffff11;
   cursor: pointer;
+  transition: all 1s;
+}
+
+
+
+
+.cardme:hover  {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  background: #000000;
+  color : greenyellow
+}
+
+.info{
+  
+  
+  font-family: 'Patua One', cursive;
+  cursor: pointer;
+  transition: all 1s;
+}
+.info:hover{
+  
+  box-shadow: 0 0 10px 10px #919191;
+}
+
+
+.auditada img{
+ 
+ width: 300px;
+ transition: all 1s;
+  
+ 
+}
+
+.auditada{
+  
+  margin: 50px auto;
+    
+  
+  display: block;
+  transition: all 1s;
+}
+
+.auditada img:hover{
+ 
+  
+  box-shadow: 0 0 10px 10px #919191; 
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+   
+  
+ }
+.auditada:hover{
+  
   
 }
 
 
-
-
-.cardme:hover .imagen {
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
-  box-shadow: 0 0 10px 10px #919191;
-}
-
-.cardme {
-  overflow: hidden;
-}
